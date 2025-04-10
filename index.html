@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="bg-[url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/numbers-fact-bg.png')] bg-cover bg-center h-screen flex flex-col justify-center items-center text-center p-5">
+        <h1 class="text-white text-[28px] font-bold mb-4">
+            Enter a number to know interesting facts about the number
+        </h1>
+
+        <input id="userInput" placeholder="Enter a Number" class="w-[90%] max-w-[320px] mt-4 p-2 rounded form-input" />
+
+        <div id="spinner" class="hidden mt-4">
+            <div class="flex justify-center">
+                <div class="w-8 h-8 border-4 border-white rounded-full"></div>
+            </div>
+        </div>
+
+        <p id="fact" class="text-white text-[18px] font-bold mt-4"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
